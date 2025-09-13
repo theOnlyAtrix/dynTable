@@ -7,7 +7,7 @@ function About() {
         <>
             <Helmet>
                 <title>About Dyntable</title>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4254925270009380" crossorigin="anonymous"></script>
+                <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
             </Helmet>
             <div className="about">
                 <h1>About DynTable:</h1><br/><br/>
