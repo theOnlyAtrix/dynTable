@@ -7,7 +7,7 @@ function PeriodicTableView() {
         <>
             <Helmet>
                 <title>DynTable: The Periodic Table Refined</title>
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4254925270009380" crossorigin="anonymous"> </script>
+                <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
             </Helmet>
             <div className="introCard">
                 <span className="animated-text"><h1 className="animated-text">Welcome </h1></span><span className="animated-text"><h1 className="animated-text">to </h1></span><span className="animated-text"><h1 className="animated-text">DynTable</h1></span>
