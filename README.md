@@ -1,4 +1,7 @@
-# React + Vite
+# dynTable : The Future of Elements Redefined.
+This is a project I've been working on to learn the basics of ReactJS. I hope you like it. :)
+
+## Built with React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
