@@ -21,6 +21,8 @@ function ElementFormat() {
                 <Helmet>
                     <title>DynTable: About {selected.name}</title>
                     <meta name="description" content="Information about elements in the periodic table"/>
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4254925270009380"
+                     crossorigin="anonymous"></script>
                 </Helmet>
                 <h1>Element: {selected.name}</h1><br/>
                 <h2>Symbol: {selected.symbol}</h2>
