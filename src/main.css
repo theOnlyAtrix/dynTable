@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #171717;
+}
+
+.nav {
+    display: flex;                  /* row layout */
+    align-items: center;            /* vertical center */
+    background: #1a0033;
+    height: 70px;                   /* fixed navbar height */
+    width: 100%;
+    list-style: none;
+}
+
+li {
+    height: 100%;
+}
+
+a {
+    display: flex;                  /* make link a flexbox */
+    align-items: center;            /* center text vertically */
+    justify-content: center;
+    height: 100%;                   /* take full navbar height */
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;            /* prevent wrapping */
+    transition: background 0.3s, color 0.3s;
+}
+
+#homeId {
+    font-family: 'Bitcount Grid Double','Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    background: white;
+    color: black;
+}
+
+/* Next CSS Code for : periodicTableView.js */
+
+.periodicTable {
+    display: flex;
+    justify-content: center;
+}
+
+.periodicTableView {
+    background-color: #0d0d26;
+    padding: 30px 0;
+    border-top: 1px white solid;
+}
+
+.introCard {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: mediumvioletred;
+    border-top: 1px white solid;
+    padding: 100px;
+    font-size: 30px;
+    font-family: 'Bitcount Grid Double', 'Poppins', sans-serif;
+}
+
+.animated-text {
+    overflow: hidden;
+    opacity: 0;
+    display: inline;
+    transform: translateY(50px);
+    animation: appear-and-rise 0.5s forwards;
+}
+
+@keyframes appear-and-rise {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-text:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.animated-text:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.animated-text:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.animated-text:nth-child(4) {
+    animation-delay: 0.4s;
+}

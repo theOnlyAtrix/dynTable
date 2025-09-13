@@ -1,0 +1,135 @@
+* {
+    font-family: 'Poppins', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.periodicTable {
+    display: grid;
+    grid-template-columns: repeat(19, 65px);
+    gap: 1px;
+    margin: auto;
+}
+
+.element {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    place-items: center;
+}
+
+.space-break {
+    display: inline-block;
+    padding: 15px;
+    border: none;
+}
+
+.reactive-non-metals {
+    background-color: #007BA7;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.noble-gases {
+    background-color: #801818;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.alkali-metals {
+    background-color: #016064;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.alkaline-earth-metals {
+    background-color: #65081F;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.transition-metals {
+    background-color: #6A5ACD;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.post-transition-metals {
+    background-color: #2C5F34;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.metalloids {
+    background-color: #996515;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.lanthanides {
+    background-color: #004F98;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.actinides {
+    background-color: #964B00;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.unknown {
+    background-color: #808080;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.reactive-non-metals:hover {
+    background-color: black;
+    color: #007BA7;
+    border: 3px solid #007BA7;
+}
+
+.alkali-metals:hover {
+    background-color: black;
+    color: #016064;
+    border: 3px solid #016064;
+}
+
+.alkaline-earth-metals:hover {
+    background-color: black;
+    color: #65081F;
+    border: 3px solid #65081F;
+}
+
+.transition-metals:hover {
+    background-color: black;
+    color: #6A5ACD;
+    border: 3px solid #6A5ACD;
+}
+
+.post-transition-metals:hover {
+    background-color: black;
+    color: #2C5F34;
+    border: 3px solid #2C5F34;
+}
+
+.lanthanides:hover {
+    background-color: black;
+    color: #004F98;
+    border: 3px solid #004F98;
+}
+
+.actinides:hover {
+    background-color: black;
+    color: #964B00;
+    border: 3px solid #964B00;
+}
+
+.unknown:hover {
+    background-color: black;
+    color: #808080;
+    border: 3px solid #808080;
+}
+
+.metalloids:hover {
+    background-color: black;
+    color: #996515;
+    border: 3px solid #996515;
+}
+
+.noble-gases:hover {
+    background-color: black;
+    color: #801818;
+    border: 3px solid #801818;
+}
