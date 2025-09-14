@@ -23,6 +23,15 @@ function ElementFormat() {
                     <meta name="description" content="Information about elements in the periodic table"/>
                     <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
                     <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
+                    <!-- Google tag (gtag.js) -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCFZKTJDFB"></script>
+                    <script>
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                    
+                      gtag('config', 'G-ZCFZKTJDFB');
+                    </script>
                 </Helmet>
                 <!-- Google Tag Manager (noscript) -->
                 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKFSK6SP"
