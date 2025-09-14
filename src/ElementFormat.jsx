@@ -24,6 +24,10 @@ function ElementFormat() {
                     <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
                     <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
                 </Helmet>
+                <!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKFSK6SP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                <!-- End Google Tag Manager (noscript) -->
                 <h1>Element: {selected.name}</h1><br/>
                 <h2>Symbol: {selected.symbol}</h2>
                 <h2>Atomic Number: {selected.atomicNo}</h2><br />
