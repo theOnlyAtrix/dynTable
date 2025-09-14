@@ -10,6 +10,10 @@ function PeriodicTableView() {
                 <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
                 <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
             </Helmet>
+            <!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKFSK6SP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                <!-- End Google Tag Manager (noscript) -->
             <div className="introCard">
                 <span className="animated-text"><h1 className="animated-text">Welcome </h1></span><span className="animated-text"><h1 className="animated-text">to </h1></span><span className="animated-text"><h1 className="animated-text">DynTable</h1></span>
                 <span className="animated-text"><h3>The Future of Elements starts here</h3></span>
