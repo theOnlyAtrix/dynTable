@@ -22,6 +22,7 @@ function ElementFormat() {
                     <title>DynTable: About {selected.name}</title>
                     <meta name="description" content="Information about elements in the periodic table"/>
                     <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
+                    <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
                 </Helmet>
                 <h1>Element: {selected.name}</h1><br/>
                 <h2>Symbol: {selected.symbol}</h2>
