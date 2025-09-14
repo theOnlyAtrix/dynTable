@@ -8,6 +8,7 @@ function About() {
             <Helmet>
                 <title>About Dyntable</title>
                 <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
+                <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
             </Helmet>
             <div className="about">
                 <h1>About DynTable:</h1><br/><br/>
