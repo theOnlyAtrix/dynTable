@@ -1,21 +1,12 @@
-* {
-    font-family: 'Poppins', "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+body {
+    background-color: #000000 !important;
 }
 
 .periodicTable {
     display: grid;
-    grid-template-columns: repeat(19, 65px);
+    margin: 0 auto;
+    grid-template-columns: repeat(18, 65px);
     gap: 1px;
-    margin: auto;
-}
-
-.element {
-    display: inline-block;
-    padding: 20px;
-    border: 3px solid black;
-    border-radius: 5px;
-    text-align: center;
-    place-items: center;
 }
 
 .space-break {

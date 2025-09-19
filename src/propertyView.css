@@ -1,29 +1,9 @@
 .view {
-    background-color: #8a2be2;
     padding: 20px;
 }
 
 .isotopes {
-    background-color: #8a2be2;
     list-style: circle;
     display: block;
     padding: 10px 30px;
-}
-
-body {
-    background-color: rebeccapurple;
-}
-
-.about {
-    display:block;
-    background-color: rebeccapurple;
-    color: white;
-    text-align: left;
-    padding: 25px;
-}
-
-.me {
-    text-decoration: underline;
-    display: inline;
-    padding: 0;
 }

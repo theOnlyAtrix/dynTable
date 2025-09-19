@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import './main.css';
 import "./propertyView.css";
 import data from "./chemPeriodicTable.json";
 
@@ -17,7 +18,7 @@ function ElementFormat() {
 
     return (
         <>
-            <div className="view">
+            <div className="view font-bold bg-gradient-to-r from-fuchsia-600 to-purple-600 text-black text-xl">
                 <Helmet>
                     <title>DynTable: About {selected.name}</title>
                     <meta name="description" content="Information about elements in the periodic table"/>
