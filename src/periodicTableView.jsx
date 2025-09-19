@@ -1,6 +1,6 @@
 import "./main.css";
 import PeriodicTable from "./periodicTable.jsx";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 function PeriodicTableView() {
     return (
@@ -8,7 +8,21 @@ function PeriodicTableView() {
             <Helmet>
                 <title>DynTable: The Periodic Table Refined</title>
                 <meta name="description" content="Information about elements in the periodic table"/>
+                <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
+                <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCFZKTJDFB"></script>
+                <script>
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                
+                  gtag('config', 'G-ZCFZKTJDFB');
+                </script>
             </Helmet>
+            {/* Google Tag Manager (noscript) */}
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKFSK6SP"
+                height="0" width="0" style={{display:"none",visibility:"hidden"}}></iframe></noscript>
+                {/* End Google Tag Manager (noscript) */}
             <div className="mains m-0">
                 <div className="introCard bg-gradient-to-r from-fuchsia-500 to-cyan-500 m-0 px-8 py-40 sm:py-77 text-sm leading-7 font-bold sm:text-4xl text-black sm:leading-15">
                     <h1 className="animated-text inline">Welcome </h1><h1 className="animated-text inline">to </h1><span className="bg-[#36013f] text-white rounded-sm"><h1 className="animated-text inline whitespace-pre"> DynTable </h1></span><br />

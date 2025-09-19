@@ -22,7 +22,22 @@ function ElementFormat() {
                 <Helmet>
                     <title>DynTable: About {selected.name}</title>
                     <meta name="description" content="Information about elements in the periodic table"/>
+                    <meta name="google-adsense-account" content="ca-pub-4254925270009380" />
+                    <meta name="google-site-verification" content="6LAp87tVg_yPBRH5P88K5yGYi8Ms0UwIgdApADmnwxQ" />
+                    <!-- Google tag (gtag.js) -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCFZKTJDFB"></script>
+                    <script>
+                      window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                    
+                      gtag('config', 'G-ZCFZKTJDFB');
+                    </script>
                 </Helmet>
+                <!-- Google Tag Manager (noscript) -->
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKFSK6SP"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                <!-- End Google Tag Manager (noscript) -->
                 <h1>Element: {selected.name}</h1><br/>
                 <h2>Symbol: {selected.symbol}</h2>
                 <h2>Atomic Number: {selected.atomicNo}</h2><br />
