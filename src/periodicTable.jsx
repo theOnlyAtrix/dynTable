@@ -24,7 +24,7 @@ function PeriodicTable() {
                         <Link
                             key={index}
                             to={`/${element.name.toLowerCase()}`}
-                            className={`element ${element.cssClass} aspect-square flex items-center justify-center text-center rounded-sm text-sm sm:text-md md:text-lg lg:text-xl`}
+                            className={`element ${element.cssClass} aspect-square flex items-center justify-center text-center rounded-sm text-xs sm:text-md md:text-lg lg:text-3xl`}
                             style={{
                                 gridColumn: element.gridCol,
                                 gridRow: element.gridRow,
